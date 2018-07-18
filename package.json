@@ -4,6 +4,8 @@
   "description": "A simple Todo app I built to learn Redux",
   "main": "index.js",
   "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,18 @@
   "bugs": {
     "url": "https://github.com/GiuliaTeggi/Todo-app/issues"
   },
-  "homepage": "https://github.com/GiuliaTeggi/Todo-app#readme"
+  "homepage": "https://github.com/GiuliaTeggi/Todo-app#readme",
+  "devDependencies": {
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "redux": "^4.0.0"
+  }
 }
